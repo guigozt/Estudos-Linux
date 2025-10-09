@@ -1,0 +1,42 @@
+O que é um sistema operacional? 
+->  É um ou conjunto software, com função de administrar e gerenciar os recursos do sistema: Hardware, Arquivos, Programas etc. 
+
+Função principal: 
+->  Estabelecer uma interface(comunicação) entre hardware e usuário 
+
+Kernel – núcleo do sistema 
+
+->  Ponte entre o usuário e o hardware. Compõe a parte central do SO e resposte por tarefas como: 
+
+    Estabelecer a camada de abstração de baixo nível (linguagem de máquina) 
+    Gerenciar recursos como processador, RAM, arquivos e entrada e saída 
+    Gerenciar processos (execução) de programas. 
+
+O que é o LINUX? 
+
+->  É um SO utilizado no segmento de servidores e por desenvolvedor de software. 
+    O kernel não é suportado por uma empresa individual, mas por uma comunidade internacional de desenvolvedores. Podendo ser usado gratuitamente.  
+    Mantido pela Linux Foundation, uma organização sem fins lucrativos. 
+
+Distribuições: 
+
+->  É um pacote que consiste em um kernel Linux, mais uma seleção de aplicativos mantidos por uma empresa ou comunidade. O objetivo da distribuição é otimizar o kernel e os aplicativos que rodam no sistema operacional para um determinado ti  po de grupo de usuários. 
+
+Ex: Debian, Ubuntu, Red Hat, Fedora e Suse 
+
+Sistemas embarcados: 
+
+->  São uma combinação de hardware e software projetados para cumprir uma função especifica dentro de um sistema maior. Fazem parte de outros dispositivos e ajudam a controlá-los. 
+    Encontrados em aplicações automotivas, médicos e até militares. 
+    O Android é um sistema operacional móvel, desenvolvido principalmente pelo Google 
+
+Linux – Modelo Cliente-Servidor 
+->  É uma estrutura de aplicação que distribui as tarefas e cargas de trabalho entre fornecedores de um recurso ou serviço, designados como servidores SERVIDORES. 
+    E os requerentes dos serviços, designados como CLIENTES.
+    Data Centers: máquinas em um único local, com função de distribuir o serviço. 
+
+ 
+
+ 
+
+ 

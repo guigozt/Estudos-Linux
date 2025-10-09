@@ -1,0 +1,23 @@
+Maquina Virtual:
+->  Simulação de um hardware, instalando o SO Linux
+    Utiliza recursos do computador local (Armazemanento e Memória RAM)
+
+Instalação VM:
+    Terminal:   bcdedit
+                bcdedit /set hypervisorlaunchtype off
+    
+    Configuração VM:
+
+    Nome do usuário: guigo
+    Senha: Gui@2715
+
+    Nome do servidor: Linux-Ubuntu
+    Nome do dominio: myguest.virtualbox.org
+
+Configurações da VM no meu PC:
+    Nome: Guilherme Gomes
+    Nome do server: servidor1
+    Nome Usuario: guigo
+    Senha: guigo123
+
+
