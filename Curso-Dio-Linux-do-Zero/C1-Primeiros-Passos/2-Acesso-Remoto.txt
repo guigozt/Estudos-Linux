@@ -1,0 +1,14 @@
+Acesso remoto de uma maquina Windows para Linux
+
+1 passo:
+->  Descobrir o IP da maquina local
+    Comando: ip a
+    IP: 10.0.0.6/24
+
+2 passo:
+->  Baixar o aplicativo Putty
+    Em caso de erro, instalar o SSH na VM
+    Comando: sudo apt-get install openssh-server
+
+    Abrir o Putty e colocar o IP da VM
+
