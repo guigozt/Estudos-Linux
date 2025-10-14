@@ -1,0 +1,10 @@
+Criando diretórios:
+->  Comando: mkdir nome
+    Ex: mkdir Documents
+
+    Não é possivel criar um espaço
+    Ex: Meus Documents
+
+    Correto: 
+    mkadir 'Meus Documents' 
+        Informa que é um nome com espaço

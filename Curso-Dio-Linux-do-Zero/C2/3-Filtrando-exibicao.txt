@@ -1,0 +1,32 @@
+Filtrando a listagem:
+-> Comando: ls | more
+    Cria uma exibição em forma de listagem
+
+    Para sair da exibção:
+    Comando: ctrl + c
+
+Filtrando por algum argumento:
+->  Lista os arquivos ou diretórios que começem com a letra p
+    Comando: ls p*
+    * para buscar qualquer letra após
+
+->  Lista arquivos ou diretórios que começem com a letra m, a segunda pode ser qualquer algarismo, a terceira um g, e a o resto pode ser qualquer letra
+    Comando: ls m?g*
+
+Criando um arquivo vazio:
+->  Comando: touch arquivo.txt
+    Requer permissão em pastas fora do usuário
+
+    Listar arquivos em sequencia:
+        Comando: ls arquivo[1-3]*
+    
+    Listar arquivos especificos:
+        Comando: ls arquivo[1,5]*
+
+    Negar a listagem de arquivos especificos:
+        Comando: ls arquivo[^2,5]
+    
+    Negar a listagem de arquivos em sequencia:
+        Comando: ls arquivo[^2-5]*
+
+    

@@ -1,0 +1,7 @@
+Prompt:
+
+->  guigo   |  @servidor1:   |   ~         |      $
+    Usuario |     Maquina    | Local(pasta)| Permissão
+
+Linux é Case Sensitive, ou seja, diferencia comandos minusculos e maisculos
+->  Ex: date

@@ -1,0 +1,8 @@
+Listar e filtrar arquivos e diretórios sem entrar nas pastas:
+->  Comando: ls /pasta/filtro
+    Ex: ls /sys/kernel/p*
+
+Buscar (encontrar) um arquivos
+->  Comando: find -name nome
+    Ele busca dentro do diretório que o usuario esta
+    Ex: find -name arquivo

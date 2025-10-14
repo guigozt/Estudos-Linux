@@ -1,0 +1,45 @@
+AJuda do comando ls
+->  Comando: ls -help
+
+    Usando o ls -l (lista longa)
+
+    Como saber se é arquivo ou diretório?
+    1 coluna:
+        -> Se começar com d = diretório
+        -> Se começar com - = arquivo
+        -> Se começar com l = link
+    
+    2 coluna:
+        -> Se for 1 = arquivo
+        -> Se for mais, indica a quantidade de objetos dentro = diretório
+
+        Verificar todos os arquivo(oculos):
+        Comando: ls -la
+
+    3 e 4 coluna:
+        -> Indica o dono e o grupo que pertence
+
+    5 coluna:
+        -> Tamanho em bytes
+
+        Simplificar a visualização de dados:
+        Ex: Mudar a forma de bytes para uma versão mais humana
+        ->  Comando: ls -h
+            ou
+            Comando: ls-lh
+
+    6 coluna:
+        -> Data de criação ou ultima alteação
+
+    7 coluna:
+        -> Nome do arquivo ou dirm retório
+
+AJuda do comando rm:
+->  rm --help
+
+    Para imprimir prompts de confirmações (informações)
+    Comando: rm -i
+    Ex:
+    Comando: rm -rfvi Teste/
+        Mostra prompts de confirmações ao tentar forçar excluir recursivamente(tudo) da pasta Teste
+

@@ -20,7 +20,7 @@ O que é o LINUX?
 
 Distribuições: 
 
-->  É um pacote que consiste em um kernel Linux, mais uma seleção de aplicativos mantidos por uma empresa ou comunidade. O objetivo da distribuição é otimizar o kernel e os aplicativos que rodam no sistema operacional para um determinado ti  po de grupo de usuários. 
+->  É um pacote que consiste em um kernel Linux, mais uma seleção de aplicativos mantidos por uma empresa ou comunidade. O objetivo da distribuição é otimizar o kernel e os aplicativos que rodam no sistema operacional para um determinado tipo de grupo de usuários. 
 
 Ex: Debian, Ubuntu, Red Hat, Fedora e Suse 
 

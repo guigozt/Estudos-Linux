@@ -1,0 +1,19 @@
+Remover diretório:
+->  Comando: rmdir nomeDiretorio
+    Funciona normalmente om diretórios vazios
+    Caso tenha conteudo, da erro
+
+    Não pode apagar o diretório em uso
+
+Excluir arquivos:
+->  Comando: rm nomeArquivo
+
+-> Varios arquivos:
+    Comando: rm arquivo*
+    Comando: *.txt
+
+Excluir arquvios e diretórios de uma vez:
+->  Comando: rm -rf Pasta/
+    Força a excluir recursivamente todos os arquivos e diretórios
+    Ex: rm -rf Planilhas/
+

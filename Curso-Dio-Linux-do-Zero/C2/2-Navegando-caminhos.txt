@@ -1,0 +1,33 @@
+Saber local que o usuario está
+->  Comando: pwd
+
+    Diretorio home -> Diretório Principal
+    Diretorio Raiz: /
+        No Windows é indicado pela \ (C:)
+
+Para mudar de diretório:
+->  Comando: cd
+    Ex: cd /
+        Indica que está voltando para o diretório raiz
+
+Listar os arquivos
+->  Comando: ls
+
+Entrar ou abrir um arquivo / diretório
+->  Comando: cd
+    Ex: cd var
+    Ex: cd log
+
+Voltar para uma pasta anterior:
+->  Comando: cd ..
+
+Acessar pasta sem ter que voltar pasta por pasta:
+->  Para VOlTAR:
+    Comando: cd../pasta
+    Ex: cd var
+        cd ../lib
+
+    Para Entrar
+    Comando: cd pasta/pasta
+    Ex: cd var/lib/git
+
