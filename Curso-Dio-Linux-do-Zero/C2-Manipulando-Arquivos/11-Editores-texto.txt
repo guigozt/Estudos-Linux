@@ -1,0 +1,25 @@
+Editor de texto vi:
+
+Para criar arquivo:
+->  Comando: vi leia-me.txt
+    O vi cria o arquivo caso ele não encontre
+
+Para entrar no modo de edição:
+->  Comando: i
+
+Para sair do modo de edição:
+->  Comando: esc
+    
+Para salvar e sair do arquivo:
+->  Comando: :wq
+
+Editor de texto nano:
+
+Para salvar:
+->  Comando: Ctrl O
+
+Para sair:
+->  Comando: Ctrl X
+
+Criação de arquivo:
+->  Comando: nano novoArquivo.txt

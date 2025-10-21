@@ -1,0 +1,28 @@
+Para verificar os comandos usados pelo usuários:
+->  Comando: history
+
+Para reaproveitar algum comando utilizado:
+->  Comando: history
+    Ex: !10
+        Pega número do comando da lista
+
+    Para usar o ultimo comando:
+    Ex: !!
+
+Para buscar padrões de comandos usados:
+->  Comando: history | grep "Planilhas" 
+    Todos os termos usados com "PLanilhas" em comandos, serão listados
+
+Pra exibir data e hora das listas de comandos do history:
+Altera uma variavel de ambiente:
+->  Comando: export HISTTIMEFORMAT="%c "
+->  Comando: history
+
+    "%c" vai formatar a exibição, no caso completa
+
+Para não armazenar os comandos no histórico:
+É preciso trocar o parametro do terminal:
+->  Comando: set +o history
+
+Para voltar que os comandos sejam armazenados:
+->  Comando: set -o history

@@ -1,0 +1,15 @@
+Possivel a troca de usuario
+Ex: Entrar como root, depois sair e voltar para o usuario convencional
+
+Configurar senha root para usuario:
+->  Comando: sudo passwd root
+    Vai pedir a senha do usuario
+    E vai criar uma nova senha de root
+        ->  root: guigo123
+
+Como trocar para o super usuario (root):
+->  Comando: su
+    Vai pedir a senha
+
+Para voltar para um usuario convencional:
+->  Comando: su guigo

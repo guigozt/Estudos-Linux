@@ -1,0 +1,13 @@
+Para liberar o serviço de acesso remoto:
+    Verificar a configuração do arquivo que configura o sshd
+    ->  Comando: cat/ etc/ssh/sshd_config
+        #PermitRootLogin -> É preciso trocar para "yes"
+        
+    Comando "cat" apenas exibe o conteudo do texto
+    Comando "nano" edita o arquivo
+    ->  Comando: sudo nano /etc/ssh/sshd_config
+
+Verificar o status de um serviço:
+->  Comando: systemctl status sshd
+
+    Possivel visualizar quem acessa o servço

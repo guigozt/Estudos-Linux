@@ -1,0 +1,15 @@
+Para verificar os grupos de administradores:
+-> Vizualizar um arquivo de texto:
+    ->  cat /etc/group
+        (adm)
+        (sudo) - Comandos de administrador
+
+Para criar um diretorio na raiz:
+->  É preciso ter permissões de adm
+->  Comando: sudo mkdir Aula
+
+Para criar um arquivo na pasta criada:
+->  sudo touch texto1.txt
+
+Para excluir o arquivo criado:
+->  sudo rm texto1.txt
