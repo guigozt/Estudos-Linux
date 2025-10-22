@@ -1,0 +1,27 @@
+Criar usuario:
+->  Comando: useradd
+    Ex: useradd joao
+
+Excluir usuario:
+->  Comando: userdel
+    Ex: userdel joao
+
+    Para forçar exclusão:
+    Ex: userdel -f joao
+
+    Para excluir com o diretório home:
+    ->  userdel -f -r joao
+
+Para criar com pasta do usuario e cadastrar nome:
+->  Comando: useradd joao -m -c "João da Silva"
+
+Cadastrar senha do usuario:
+->  Comando: passwd joao
+
+Indicar a shell que o usuario utilizará:
+No caso o padrão "bash"
+->  Comando: chsh -s /bin/bash joao
+
+    Indicando na criação:
+    ->  useradd joao -m -c "Joao da Silva" -s bin/bash
+
