@@ -1,0 +1,17 @@
+Para criar usuario temporario (com data de expiração)
+->  Comando: useradd guest -c "Convidado" -m -e 06/11/2025
+    
+    -c -> nome do usuario
+    -m -> pasta padrao do usuario
+    -e -> data de expiracao
+
+Cadastrar senha do usuario:
+->  Comando: passwd guest
+    Ex: guest123
+
+    Para pedir para o usuario trocar a senha (na hora):
+    ->  passwd guest -e
+    * quando o usuario logar, terá que trocar a senha
+
+Visualizar usuarios cadastrados no servidor:
+->  Comando: cat /etc/passwd

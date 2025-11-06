@@ -1,0 +1,30 @@
+Criar usuario e especificar senha na criação:
+    Não se pode usar diretamente -p, pois virá criptografada, e assim inacessivel
+    ->  Comando: useradd convidado1 -c "Convidado especial" -s /bin/bash -m -p $(openssl passwd -crypt senha123)
+
+Criar um script que irá criar n usuarios
+    Criar um diretorio na raiz
+    -   mkdir scripts
+
+    Criar arquivo de texto
+    -   nano criar_user.sh
+
+    Dentro do arquivo:
+        Indica que é um scrpit: #!/bin/bash
+
+        echo "Criando usuarios do sistema..."
+        
+        useradd guest10 -c "Usuario convidado" -s /bin/bash -m -p $(openssl passwd -crypt senha123)
+        passwd guest10 -e
+
+        useradd guest11 -c "Usuario convidado" -s /bin/bash -m -p $(openssl passwd -crypt senha123)
+        passwd guest11 -e
+
+        echo "Finalizado!"
+
+O arquivo nao tera permissão de execução, terá que ser alterado:
+->  Comando: chmod +x criar_user.sh
+
+Para executar:
+-> Comando: ./criar_user.sh
+

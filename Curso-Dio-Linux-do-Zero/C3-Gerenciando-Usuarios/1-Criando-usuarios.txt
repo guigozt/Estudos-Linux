@@ -25,3 +25,6 @@ No caso o padrão "bash"
     Indicando na criação:
     ->  useradd joao -m -c "Joao da Silva" -s bin/bash
 
+Modificar alguma informação do usuario
+    Adicionar shell
+    ->  Comando: usermod guest -s bin/bash
