@@ -19,5 +19,3 @@ Configurações da VM no meu PC:
     Nome do server: servidor1
     Nome Usuario: guigo
     Senha: guigo123
-
-

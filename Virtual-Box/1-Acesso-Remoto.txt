@@ -1,0 +1,18 @@
+1.  Inicializando Virtual Box:
+    1.  Abrir Virtual Box
+    2.  Iniciar SO
+
+    3.  Login: guigo
+    4.  Senha: guigo123
+
+    5.  Descobrir o IP da máquina local
+        -   ip a
+
+2.  Iniciar Putty:
+    1.  Baixar o aplicativo Putty
+        Em caso de erro, instalar o SSH na VM
+        -   sudo apt-get install openssh-server
+
+    2.  Host Name
+        -   IP na maquina descoberto
+    3.  Open
